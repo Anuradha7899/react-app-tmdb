@@ -1,0 +1,15 @@
+/** @format */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.active {
+  color: var(--bs-indigo) !important;
+  text-decoration: underline !important;
+}
+
+.movie-card-title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
